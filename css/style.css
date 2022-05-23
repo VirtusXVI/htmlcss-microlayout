@@ -10,6 +10,11 @@ img{
     width: 100%;
 }
 
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
 a{
     text-decoration: none;
     color: grey;
@@ -45,4 +50,8 @@ a{
 .ms_discounted_price{
     text-decoration: line-through;
     color: red;
+}
+
+.ms_highlighted_text{
+    font-weight: bold;
 }
