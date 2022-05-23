@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+/* CONTAINER */
+
+.ms_container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ms_card_container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.ms_img_container{
+    width: 100%;
+    padding: 1rem 0;
+}
+
+/* MAIN */
+
+.ms_review_dot{
+    height: 20px;
+    width: 20px;
+    background-color: lightgreen;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.ms_discounted_price{
+    text-decoration: line-through;
+    color: red;
+}
